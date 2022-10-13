@@ -144,9 +144,59 @@ main p a{
 }
 
 
+.warwera{
+    color: #ffffff;
+    margin-top: 70px;
+    text-align: center;
+
+}
 
 
+ .logo{
+    height: 100px;
+    width: 50px;
+    right: 0;
+    position: fixed;
+    top: 220px;
+    background-image: url(../img/fb.png), url(../img/instagram.png);
+    background-position: top, bottom;
+    background-size: 100%;
+    background-repeat: no-repeat ;
+}
 
+main article{
+    margin-top: 146px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+    margin-right: 44px;
+    display: inline-block
+    
+    
+}
+main article h2{
+    margin-bottom: 50px;
+}
+
+.picture{
+    height: 66px;
+    width: 264px;
+    margin: 0 auto;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin: 0 auto;
+
+    
+}
+
+.final{
+    font-size: 36px;
+    /* margin: 0 auto; */
+    display: block;
+    text-align: center;
+    margin-top: 106px;
+    margin-bottom: 144px;
+} 
 
 footer {
     padding: 20px;
@@ -192,56 +242,3 @@ footer li a{
     color: #ffffff;
     display: block;
 }
-
-.warwera{
-    color: #ffffff;
-    margin-top: 70px;
-    text-align: center;
-
-}
-
-
- .logo{
-    height: 100px;
-    width: 50px;
-    right: 0;
-    position: fixed;
-    top: 220px;
-    background-image: url(../img/fb.png), url(../img/instagram.png);
-    background-position: top, bottom;
-    background-size: 100%;
-    background-repeat: no-repeat ;
-}
-
-main article{
-    margin-top: 146px;
-    margin-bottom: 50px;
-    margin-left: 110px;
-    margin-right: 44px;
-    display: inline-block
-    
-}
-main article h2{
-    margin-bottom: 50px;
-}
-
-.picture{
-    height: 66px;
-    width: 264px;
-    margin: 0 auto;
-    background-image: url(../img/sound.png);
-    background-repeat: repeat-x;
-    background-size: 25%;
-    margin: 0 auto;
-
-    
-}
-
-.final{
-    font-size: 36px;
-    /* margin: 0 auto; */
-    display: block;
-    text-align: center;
-    margin-top: 106px;
-    margin-bottom: 144px;
-} 
