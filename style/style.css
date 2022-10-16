@@ -45,6 +45,7 @@ header nav{
 header li{
     float: left;
     margin-right: 20px;
+    position: relative;
   
 }
 
@@ -52,8 +53,62 @@ header li a{
     padding: 5px 10px;
     color: #ffffff;
     font-size: 18px;
+    position: relative;
 
 }
+.active{
+    border-bottom: 4px solid #ffffff;
+}
+header li a::after{
+    bottom: 0;
+    left:0;
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    transition: 2s;
+}
+/* header li a::before{
+    top: 0;
+    right:0;
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    transition: 2s 4s;
+}
+
+header li::after{
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 4px;
+    height: 0;
+    background-color: #ffffff;
+    position: absolute;
+    
+    transition: 2s 2s;
+}
+header li::before{
+    top: 0;
+    left: 0;
+    content: "";
+    width: 4px;
+    height: 0;
+    background-color: #ffffff;
+    position: absolute;
+    transition: 2s 6s;} */
+
+header li a:hover:after{
+    width: 100%;
+}
+/* header li a:hover:before{
+    width: 100%;} */
+/* header li:hover:before, header li:hover:after{
+    height: 100%;
+} */
 
 .play{
     margin-top: 144px;
@@ -81,8 +136,16 @@ main p a{
     padding: 100px;
     position: relative;
     border: 2px solid black;
-    display: inline-block
-    
+    display: inline-block;
+    position:relative
+}
+.kvadrati:hover {
+    /* background-color: aqua; */
+    box-shadow: 4px 6px  #000000
+}
+.kvadrati:hover .link {
+    text-decoration: underline;
+
 
 }
 
@@ -119,6 +182,10 @@ main p a{
     font-size: 12px;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 .baby{
     width: 50px;
     height: 50px;
@@ -130,18 +197,11 @@ main p a{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-.contact{
-    height: 100px;
-    width: 50px;
-    position: fixed;
-    top: 220px;
-    right: 0;
-    background-image: url(../img/fb.png), url(../img/instagram.png);
-    background-position: top, bottom;
-    background-size: 100%;
-    background-repeat: no-repeat ;
+.baby:hover{
+    background-image: url(../img/like\ 1.1.png);
 }
+
+
 
 
 .warwera{
@@ -150,9 +210,7 @@ main p a{
     text-align: center;
 
 }
-
-
- .logo{
+.logo{
     height: 100px;
     width: 50px;
     right: 0;
@@ -162,6 +220,9 @@ main p a{
     background-position: top, bottom;
     background-size: 100%;
     background-repeat: no-repeat ;
+}
+.logo:hover{
+    background-image: url(../img/fb\ new.png), url(../img/instagram\ new.png)
 }
 
 main article{
